@@ -11,7 +11,7 @@ export default function Projects() {
         <div className=" relative h-[45vw] w-[90vw] md:w-full md:h-[20vw]">
           <a href="https://personal-blog-app-tau.vercel.app/" target="_blank">
             <Image
-              src={"/images/temp-project-1.jpg"}
+              src={"/images/blog.png"}
               fill
               alt="blog app image"
               className="rounded-[1.5rem] md:rounded-[2rem] cursor-pointer object-cover"

@@ -29,7 +29,7 @@ export default function Works() {
                 fill
                 alt="wt image"
                 className="rounded-[1.5rem] md:rounded-[2rem] cursor-pointer object-cover"
-              ></Image>
+              />
             </a>
           </div>
           <article className="text-[12px] sm:text-sm flex flex-row flex-wrap gap-x-2 ">
@@ -47,7 +47,7 @@ export default function Works() {
                 fill
                 alt="museum image"
                 className="rounded-[1.5rem] md:rounded-[2rem] object-cover"
-              ></Image>
+              />
             </a>
           </div>
           <article className="text-[12px] sm:text-sm flex flex-row  flex-wrap gap-x-2">
@@ -70,17 +70,48 @@ export default function Works() {
 
       <div className="grid gap-8 md:gap-12
       grid-cols-[repeat(auto-fit,minmax(200px,1fr))] 
-      h-auto
-        w-full pt-20
+      h-auto w-full pt-20
+      justify-center items-center
        ">
-        <div className="bg-purple-400 h-110 sm:h-80 max-w-85 sm:max-w-60">
-          
+        <div className="h-110 sm:h-80 max-w-85 sm:max-w-60 min-w-60 relative">
+            <a
+              href="https://tailwindpractice1.vercel.app/"
+              target="_blank"
+            >
+              <Image
+                src={"/images/poster-1.png"}
+                fill
+                alt="wt image"
+                className="rounded-[1.5rem] md:rounded-[2rem] cursor-pointer object-cover"
+              />
+              </a>
         </div>
-        <div className="bg-purple-400 h-110 sm:h-80 max-w-85 sm:max-w-60"></div>
-        <div className="bg-purple-400 h-110 sm:h-80 max-w-85 sm:max-w-60"></div>
-        <div className="bg-purple-400 h-110 sm:h-80 max-w-85 sm:max-w-60"></div>
-        <div className="bg-purple-400 h-110 sm:h-80 max-w-85 sm:max-w-60"></div>
-        <div className="bg-purple-400 h-110 sm:h-80 max-w-85 sm:max-w-60"></div>
+        <div className="h-110 sm:h-80 max-w-85 sm:max-w-60 min-w-60 relative">
+            <a
+              href="https://tailwindpractice2.vercel.app/"
+              target="_blank"
+            >
+              <Image
+                src={"/images/poster-2.png"}
+                fill
+                alt="wt image"
+                className="rounded-[1.5rem] md:rounded-[2rem] cursor-pointer object-cover"
+              />
+              </a>
+        </div>
+                <div className="h-110 sm:h-80 max-w-85 sm:max-w-60 min-w-60 relative">
+            <a
+              href="https://practice-4-gold.vercel.app/"
+              target="_blank"
+            >
+              <Image
+                src={"/images/poster-3.png"}
+                fill
+                alt="wt image"
+                className="rounded-[1.5rem] md:rounded-[2rem] cursor-pointer object-cover"
+              />
+              </a>
+        </div>
       </div>
     </div>
   );
