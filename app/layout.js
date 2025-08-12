@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       <body
         className= {`flex justify-center items-center bg-[#D8E4D8]
           ${inter.variable}
-           px-4 md:px-12 py-8
+           px-4 md:px-20 lg:px-40 py-8
           `}
       >
         {children}

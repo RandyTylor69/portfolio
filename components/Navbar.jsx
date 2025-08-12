@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <nav
       className="p-1 flex flex-row justify-center items-center gap-1
-     rounded-[2rem] bg-[#C5D5C3]/90 backdrop-blur-sm
+     rounded-[2rem] bg-[#C5D5C3]/50 backdrop-blur-sm
      w-fit
      "
     >

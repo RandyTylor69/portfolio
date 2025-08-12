@@ -2,8 +2,8 @@ export default function Home() {
   return (
     <div className="h-auto w-full">
       <article
-        className="text-md md:text-2xl
-            mt-20 md:mt-40
+        className="text-md sm:text-xl md:text-2xl
+            mt-20 md:mt-40 mb-20
             "
       >
         <p>
