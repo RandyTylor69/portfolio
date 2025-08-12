@@ -28,11 +28,20 @@ export default function Connect() {
           </li>
           <li>
             <a
+              href="https://drive.google.com/file/d/1rL9Pake3w-jYaXBXkYKFobHkoqyq97HW/view?usp=sharing"
+              className="hover:text-black hover:underline duration-300"
+              target="_blank"
+            >
+              Resume
+            </a>
+          </li>
+          <li>
+            <a
               href="mailto:christophermaomao@gmail.com"
               className="hover:text-black hover:underline duration-300"
               target="_blank"
             >
-             Email
+              Email
             </a>
           </li>
         </ul>
