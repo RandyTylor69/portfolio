@@ -19,7 +19,7 @@ export default function Works() {
             "
       >
         <section className="flex flex-col flex-1 gap-4">
-          <div className=" relative h-[45vw] w-[90vw] md:w-full md:h-[20vw]">
+          <div className=" relative h-[45vw] w-[90vw] md:w-full md:h-[18vw] lg:h-[16vw]">
             <a
               href="https://wrestling-tournament-sales-page.vercel.app/"
               target="_blank"
@@ -37,21 +37,21 @@ export default function Works() {
           </article>
         </section>
         <section className="flex flex-col flex-1 gap-4">
-          <div className=" relative h-[45vw] w-[90vw] md:w-full md:h-[20vw]">
+          <div className=" relative h-[45vw] w-[90vw] md:w-full md:h-[18vw] lg:h-[16vw]">
             <a
-              href="https://practice-3-g1uh7j6vk-depayss-projects.vercel.app/"
+              href="https://umoja-foundation-group.vercel.app/"
               target="_blank"
             >
               <Image
-                src={"/images/museum.gif"}
+                src={"/images/umoja.gif"}
                 fill
-                alt="museum image"
+                alt="umoja gif"
                 className="rounded-[1.5rem] md:rounded-[2rem] object-cover"
               />
             </a>
           </div>
           <article className="text-[12px] sm:text-sm flex flex-row  flex-wrap gap-x-2">
-            <p>Museum Landing Page</p>
+            <p>Umoja (nonprofit) Organization Website</p>
           </article>
         </section>
       </div>
