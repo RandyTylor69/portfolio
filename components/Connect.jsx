@@ -46,27 +46,6 @@ export default function Connect() {
           </li>
         </ul>
       </article>
-
-      <link
-        rel="stylesheet"
-        href="https://jacobl04.github.io/Western-Webrings/webring.css"
-      />
-
-      <div
-        id="western-webring"
-        data-style="default"
-        data-color="blue"
-        data-show-list="true"
-        data-show-random="true"
-        data-random-text="[?]"
-        data-arrow-prev="&lt; Prev"
-        data-arrow-next="Next &gt;"
-      ></div>
-
-      <script
-        src="https://jacobl04.github.io/Western-Webrings/webring.js"
-        async
-      ></script>
     </div>
   );
 }
